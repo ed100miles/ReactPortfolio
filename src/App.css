@@ -1,19 +1,25 @@
 body{
-    background-color: #4B5358;
-    font-family: 'Source Code Pro'
+    background-color: #12232E;
+    font-family: 'Ubuntu Mono', serif;
+    margin: 0;
+    /* transform: translateX(-5vw) */
+}
+.app{
+    width: 100%;
+    margin: 0
 }
 /* NavBar */
 .navbar{
-    background-color: #727072;
-    color: #DCE1E9;
+    background-color: #4DA8DA;
+    color: #EEFBFB;
 }
 .navbar-toggler{
-    background-color: rgb(102, 102, 102);
+    background-color: #4DA8DA;
     border-radius: 1vw;
 }
 .nav-brand{
-    color: #104547;
-    font-family: 'Pattaya', serif;
+    color: #12232E;
+    font-family: 'Monoton', serif;
     font-weight: 800;
     margin-right: 2vw;
     font-size: 1.5em;
@@ -45,7 +51,6 @@ body{
     visibility: visible;
     transform: scaleX(1);
 }
-
 #about-link{
     position: relative;
 }
@@ -65,7 +70,6 @@ body{
     visibility: visible;
     transform: scaleX(1);
 }
-
 #skills-link{
     position: relative;
 }
@@ -110,12 +114,12 @@ body{
 
 .homeH1 {
     /* padding-top: 60px; */
-    color: #DCE1E9;
+    color: #EEFBFB;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: center;
     font-size: 4em;
     font-weight: 500;
-    font-family: 'Pattaya', serif;
+    font-family: 'Monoton', serif;
 }
 .subheading{
     color: rgb(56, 56, 56);
@@ -126,10 +130,10 @@ body{
 .intro-div{
     font-size: 2vh;
     padding-top: 5vh;
-    background-color: #104547;
-    width: 105vw;
-    height: 105vh;
-    transform: translateX(-5vw);
+    background-color: #203647;
+    width: 100vw;
+    height: 100vh;
+    /* transform: translateX(-5vw); */
 }
 .intro-content-1{
     display: flex;
@@ -145,7 +149,7 @@ body{
     max-height: 50vh;
     margin-top: 5vh;
     border-radius: 1rem;
-    background-color: teal;
+    background-color: #203647;
 }
 .typed-content-div{
     height: 15vh;
@@ -159,9 +163,9 @@ body{
     padding-top: 10vh;
     display: flex;
     align-items: center;
-    color: #DCE1E9;
+    color: #EEFBFB;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-family: 'Source Code Pro';
+    /* font-family: 'Inconsolata'; */
     font-size: 2.5em;
     animation: typist 10s steps(18), caret 0.8s infinite step-end;
     white-space: nowrap;
@@ -186,17 +190,17 @@ body{
 }
 .intro-link{
     font-size: 1.5em;
-    font-family: 'Source Code Pro';
-    color: #DCE1E9;
+    /* font-family: 'Inconsolata'; */
+    color: #EEFBFB;
     text-align: center;
 }
 
 /* About Page */
 .about-div{
     height: 100vh;
-    width: 105vw;
-    transform: translateX(-5vw);
-    background-color:#BCD8C1;  
+    width: 100vw;
+    /* transform: translateX(-5vw); */
+    background-color:#007CC7;  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -204,21 +208,21 @@ body{
     font-size: 2vh;
 }
 .about-title-div{
-    color: #104547;
+    color: #EEFBFB;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 3em;
-    font-family: 'Pattaya', 'serif';
+    font-family: 'Monoton', 'serif';
 }
 .about-blurb-div{
-    color:  #104547;
+    color:  #EEFBFB;
     height: 65vh;
     padding-left: 10vw;
     padding-right: 10vw;
     overflow: hidden;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     text-align: justify;
 }
 .about-link-div{
@@ -229,7 +233,7 @@ body{
     text-align: center;
 }
 .about-link{
-    color: #104547;
+    color: #EEFBFB;
     font-size: 1.5em;
 }
 
@@ -238,19 +242,19 @@ body{
 .tech-skills-div{
     font-size: 2vh;
     height: 100vh;
-    background-color: #4B5358;
-    width: 105vw;
-    transform: translateX(-5vw);
+    background-color: #203647;
+    width: 100vw;
+    /* transform: translateX(-5vw); */
 }
 .skills-header{
     height: 15vh;
     font-size: 3em;
     font-weight: 600;
-    color: #D2D6EF;
+    color: #EEFBFB;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Pattaya', 'serif';
+    font-family: 'Monoton', 'serif';
 }
 .skills-tabs{
     margin-left: 5vw;
@@ -266,7 +270,7 @@ body{
     background-color: #D2D6EF;
 }
 .skills-tabs .nav-item.nav-link{
-    font-family: monospace;
+    /* font-family: 'Inconsolata'; */
     /* padding: 1vw; */
     margin-top: 0.5vh;
     margin-left: 0.5vw;
@@ -278,7 +282,7 @@ body{
     /* margin: 1px; */
 }
 .skills-tabs .nav-link.active{
-    font-family: monospace;
+    font-family: 'Inconsolata';
     background-color: #4B5358;
     color: #D2D6EF;
     border-width: 0.5vw;
@@ -321,9 +325,9 @@ body{
 .projects-div{
     font-size: 2vh;
     min-height: 100vh;
-    background-color: #F3A712;
-    width: 105vw;
-    transform: translateX(-5vw);
+    background-color: #EEFBFB;
+    width: 100vw;
+    /* transform: translateX(-5vw); */
 }
 .projects-h1{
     font-size: 3em;
@@ -331,7 +335,7 @@ body{
     padding-top: 2vh;
     padding-bottom: 2vh;
     color: #4B5358;
-    font-family: 'Pattaya', 'serif';
+    font-family: 'Monoton', 'serif';
 }
 .project-tabs{
     margin-left: 5vw;
@@ -346,7 +350,7 @@ body{
     background-color: #4B5358;
 }
 .project-tabs .nav-item.nav-link{
-    font-family: monospace;
+    /* font-family: 'Inconsolata'; */
     /* padding: 1vw; */
     margin-top: 1vh;
     margin-left: 1vw;
@@ -357,7 +361,7 @@ body{
     /* margin: 1px; */
 }
 .project-tabs .nav-link.active{
-    font-family: monospace;
+    /* font-family: 'Inconsolata'; */
     background-color: #DCE1E9;
     /* border: floralwhite solid; */
     /* border-top:floralwhite solid; */
