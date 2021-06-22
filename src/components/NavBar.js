@@ -12,7 +12,7 @@ const NavBar = () => {
             to="homeH1"
             spy={false}
             smooth={true}
-            offset={-200}
+            offset={-500}
             duration={1000}
         >EdMiles.tech
     </Link>
@@ -25,7 +25,7 @@ const NavBar = () => {
                 to="homeH1"
                 spy={false}
                 smooth={true}
-                offset={-200}
+                offset={-500}
                 duration={1000}
             >Home
             </Link> 
@@ -63,6 +63,9 @@ const NavBar = () => {
             duration={1000}
         >Projects
         </Link>
+        </span>
+        <span className='nav-links' id='email-me-link'>
+            <a href='mailto edmilestech@gmail.com'>Email Me</a>
         </span>
     </Nav>
   </Navbar.Collapse>

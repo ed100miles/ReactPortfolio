@@ -4,25 +4,35 @@ body{
     margin: 0;
     /* transform: translateX(-5vw) */
 }
+h3{
+    font-weight: bold;
+    text-align: center;
+}
 .app{
     width: 100%;
     margin: 0
 }
 /* NavBar */
 .navbar{
-    background-color: #4DA8DA;
+    background-color: rgb(6, 55, 110);
     color: #EEFBFB;
+    border-bottom: solid #EEFBFB;
 }
 .navbar-toggler{
     background-color: #4DA8DA;
     border-radius: 1vw;
 }
 .nav-brand{
-    color: #12232E;
-    font-family: 'Monoton', serif;
+    color: white;
+    font-family: 'JetBrains Mono', serif;
     font-weight: 800;
     margin-right: 2vw;
     font-size: 1.5em;
+}
+.nav-brand:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 .nav-links{
     margin-right: 2vw;
@@ -42,7 +52,7 @@ body{
     height: 0.4vh;
     bottom: 0;
     left: 0;
-    background-color: rgb(30, 165, 75);
+    background-color: rgb(225, 225, 225);
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
@@ -61,7 +71,7 @@ body{
     height: 0.4vh;
     bottom: 0;
     left: 0;
-    background-color: rgb(37, 174, 192);
+    background-color: rgb(225, 225, 225);
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
@@ -80,7 +90,7 @@ body{
     height: 0.4vh;
     bottom: 0;
     left: 0;
-    background-color: rgb(14, 59, 207);
+    background-color: rgb(225, 225, 225);
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
@@ -100,12 +110,35 @@ body{
     height: 0.4vh;
     bottom: 0;
     left: 0;
-    background-color: rgb(255, 198, 74);
+    background-color: rgb(225, 225, 225);
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
 }
 #projects-link:hover::before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+#email-me-link{
+    position: relative;
+}
+#email-me-link a{
+    color: #EEFBFB;
+}
+#email-me-link::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.4vh;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(225, 225, 225);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+#email-me-link:hover::before{
     visibility: visible;
     transform: scaleX(1);
 }
@@ -119,7 +152,7 @@ body{
     text-align: center;
     font-size: 4em;
     font-weight: 500;
-    font-family: 'Monoton', serif;
+    font-family: 'JetBrains Mono', serif;
 }
 .subheading{
     color: rgb(56, 56, 56);
@@ -130,11 +163,16 @@ body{
 .intro-div{
     font-size: 2vh;
     padding-top: 5vh;
+    /* background-image: url('imgs/motherboard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
     background-color: #203647;
     width: 100vw;
     height: 100vh;
     /* transform: translateX(-5vw); */
 }
+
+
 .intro-content-1{
     display: flex;
     justify-content: space-evenly;
@@ -150,6 +188,12 @@ body{
     margin-top: 5vh;
     border-radius: 1rem;
     background-color: #203647;
+    /* filter: grayscale(80%);
+    -moz-filter: grayscale(80%);
+    -ms-filter: grayscale(80%);
+    -o-filter: grayscale(80%);
+    filter: gray; /* IE6-9 
+    -webkit-filter: grayscale(80%); */
 }
 .typed-content-div{
     height: 15vh;
@@ -201,6 +245,9 @@ body{
     width: 100vw;
     /* transform: translateX(-5vw); */
     background-color:#007CC7;  
+    /* background-image: url('imgs/stars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -214,7 +261,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 3em;
-    font-family: 'Monoton', 'serif';
+    font-family: 'JetBrains Mono', 'serif';
 }
 .about-blurb-div{
     color:  #EEFBFB;
@@ -242,19 +289,21 @@ body{
 .tech-skills-div{
     font-size: 2vh;
     height: 100vh;
-    background-color: #203647;
+    background-color: #12232E;
     width: 100vw;
     /* transform: translateX(-5vw); */
 }
 .skills-header{
+    padding-top:2vh;
     height: 15vh;
     font-size: 3em;
     font-weight: 600;
+    text-align: center;
     color: #EEFBFB;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Monoton', 'serif';
+    font-family: 'JetBrains Mono', 'serif';
 }
 .skills-tabs{
     margin-left: 5vw;
@@ -335,7 +384,7 @@ body{
     padding-top: 2vh;
     padding-bottom: 2vh;
     color: #4B5358;
-    font-family: 'Monoton', 'serif';
+    font-family: 'JetBrains Mono', 'serif';
 }
 .project-tabs{
     margin-left: 5vw;
@@ -371,7 +420,7 @@ body{
     border-color: #727072; */
 }
 .projects-div .tab-content{
-    background-color:#D2D6EF;
+    background-color:#d8dae4;
     margin-right: 5vw;
     margin-left: 5vw;
     padding-top: 3vh;
@@ -380,7 +429,6 @@ body{
     padding-right: 3vw;
     border-bottom-left-radius: 1vw;
     border-bottom-right-radius: 1vw;
-    
 }
 
 
@@ -389,18 +437,40 @@ body{
     width: 100%;
     height: 80vh;
     border-radius: 2vmin;
+    display: block;
 }
 
 /* Sent Project Styling */
 .sent-frame{
-    width: 90vw;
-    height: 59vh;
+    display: block;
+    width: 85vw;
+    min-height: 59vh;
     margin: 0 auto;
+}
+/* VaccSite styling */
+.vaccSite-frame{
+    width: 80vmin;
+    height: 40vmin;
+    margin: 0 auto;
+    border-radius: 2vmin;
+    display: block;
+}
+/* Img Mod styling */
+.ImgMod-frame{
+    display: block;
+    width: 85vw;
+    min-height: 50vh;
+    margin: 0 auto;
+}
+
+.scrabble-frame{
+    overflow: hidden;
 }
 
 /* Link animations */
 .projects-link-div:hover, .intro-link-div:hover, .about-link-div:hover{
     animation: grow 1s linear infinite;
+    color: white;
 }
 .projects-link:hover, .intro-link:hover, .about-link:hover{
     cursor: pointer;
@@ -410,6 +480,18 @@ body{
     0% {transform: scale(1,1);}
     50% {transform: scale(1.2,1.2);}
     100% {transform: scale(1,1)}
+}
+
+/* Github Links */
+.git-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.git-links a{
+    color:black;
+}
+.git-links i{
+    padding-right: 1vw;
 }
 
 
