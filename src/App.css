@@ -235,6 +235,8 @@ h3{
     100%{width: 18ch;}
 }
 .intro-link-div{
+    max-width: 80vw;
+    margin: auto;
     height: 30vh;
     display: flex;
     justify-content: center;
@@ -370,11 +372,13 @@ h3{
     min-height: 65vh;
 }
 .projects-link-div{
+    max-width: 80vw;
+    margin: auto;
     font-size: 1.5em;
     text-align: center;
 }
 .projects-link{
-    color: #D2D6EF;
+    color: #EEFBFB;
 }
 
 /* Projects Styling */
