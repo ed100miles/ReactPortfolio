@@ -65,8 +65,27 @@ const NavBar = () => {
         </Link>
         </span>
         <span className='nav-links' id='email-me-link'>
-            <a href='mailto edmilestech@gmail.com'>Email Me</a>
+            <a href='mailto:edmilestech@gmail.com'>Email</a>
         </span>
+
+        <span id='media-links'>
+            <a href='mailto:edmilestech@gmail.com'>
+                <i class="far fa-envelope"></i>
+            </a>
+            <a href='https://www.linkedin.com/in/edward-miles-407349143'
+                target='_blank'
+                rel="noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href='https://github.com/ed100miles'
+                target='_blank'
+                rel="noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+        </span>
+        {/* <span>
+            <i class="fab fa-twitter"></i>
+        </span> */}
     </Nav>
   </Navbar.Collapse>
 </Navbar>

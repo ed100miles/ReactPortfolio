@@ -41,6 +41,14 @@ h3{
 .nav-links:hover{
     cursor: pointer;
 }
+.navbar a i{
+    margin-right: 1vw;
+    color: whitesmoke;
+}
+#media-links{
+    position: absolute;
+    right: 0px;
+}
 
 #home-link{
     position: relative;
@@ -244,7 +252,7 @@ h3{
     height: 100vh;
     width: 100vw;
     /* transform: translateX(-5vw); */
-    background-color:#007CC7;  
+    background-color:#164664;  
     /* background-image: url('imgs/stars.jpg');
     background-repeat: no-repeat;
     background-size: cover; */
@@ -289,7 +297,7 @@ h3{
 .tech-skills-div{
     font-size: 2vh;
     height: 100vh;
-    background-color: #12232E;
+    background-color: #203647;
     width: 100vw;
     /* transform: translateX(-5vw); */
 }
@@ -314,33 +322,33 @@ h3{
     padding-bottom: 3px;
     border: solid #104547;
     border-width: 1px;
+    display: flex;
+    justify-content: space-around;
 }
 .skills-tabs.nav.nav-tabs{
-    background-color: #D2D6EF;
+    background-color: #a5a5a8;
 }
 .skills-tabs .nav-item.nav-link{
-    /* font-family: 'Inconsolata'; */
-    /* padding: 1vw; */
     margin-top: 0.5vh;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
     margin-bottom: 0;
     padding: 0.2rem;
-    background-color:#727072;
-    color: #D2D6EF;
-    /* margin: 1px; */
+    background-color:#164664 ;
+    color: #EEFBFB;
 }
 .skills-tabs .nav-link.active{
-    font-family: 'Inconsolata';
-    background-color: #4B5358;
-    color: #D2D6EF;
+    background-color: rgb(32, 92, 160);
+    color: #EEFBFB;
     border-width: 0.5vw;
     border: #104547 solid;
     border-width: 1px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 .tech-skills-div .tab-content{
     font-size: 0.85em;
-    background-color: #DCE1E9;
+    background-color: #c3ccd8;
     color: #4B5358;
     margin-right: 5vw;
     margin-left: 5vw;
@@ -374,16 +382,15 @@ h3{
 .projects-div{
     font-size: 2vh;
     min-height: 100vh;
-    background-color: #EEFBFB;
+    background-color: #164664;
     width: 100vw;
-    /* transform: translateX(-5vw); */
 }
 .projects-h1{
     font-size: 3em;
     text-align: center;
     padding-top: 2vh;
     padding-bottom: 2vh;
-    color: #4B5358;
+    color: #EEFBFB;
     font-family: 'JetBrains Mono', 'serif';
 }
 .project-tabs{
@@ -393,34 +400,27 @@ h3{
     justify-content: space-around;
     border-top-left-radius: 1vw;
     border-top-right-radius: 1vw;
-    /* padding: 1vw; */
 }
 .project-tabs.nav.nav-tabs{
-    background-color: #4B5358;
+    background-color: #a5a5a8;
 }
 .project-tabs .nav-item.nav-link{
-    /* font-family: 'Inconsolata'; */
-    /* padding: 1vw; */
     margin-top: 1vh;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-bottom: 0;
-    background-color: #727072;
-    color: #DCE1E9;
-    /* margin: 1px; */
+    background-color: #164664;
+    color: #EEFBFB;
 }
 .project-tabs .nav-link.active{
-    /* font-family: 'Inconsolata'; */
-    background-color: #DCE1E9;
-    /* border: floralwhite solid; */
-    /* border-top:floralwhite solid; */
-    color: #104547;
-    border-bottom: solid #727072;
-    /* border-width: 0.5vw;
-    border-color: #727072; */
+    background-color: rgb(32, 92, 160);
+    color: #EEFBFB;
+    border-bottom: solid #c3ccd8;
+    font-weight: bold;
+    text-decoration: underline;
 }
 .projects-div .tab-content{
-    background-color:#d8dae4;
+    background-color:#c3ccd8;
     margin-right: 5vw;
     margin-left: 5vw;
     padding-top: 3vh;
@@ -433,6 +433,7 @@ h3{
 
 
 /* Scrabble Project Styling */
+
 .scrabble-frame{
     width: 100%;
     height: 80vh;

@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className='about-blurb-div'>
         <p>I'm Ed Miles. I've been working in finance for several years now. But most of my spare time I've spent learning to code. </p>
-        <p>I've decided to turn my passion into a career. Take a look at my website and if you think I could be a good fit with your team, send me an email and we can chat.</p>
+        <p>I've decided to turn my passion into a career. Take a look at my website and if you think I could be a good fit with your team, send me an email.</p>
         {/* <p>Take some time to look at some of the skills I've picked up over the last few years - if you think I could be a good fit with your team, send me an email and we can chat.</p> */}
         <p>I really enjoy writing programs that help solve a problem, but often they're just for a bit of fun or to learn something new. I get a real kick out of machine learning and natural language programming.</p>
         <p>You can see some examples of things I've built in the <i>'projects'</i> section below. You'll also find links to my github where you can check out the source code.</p>
