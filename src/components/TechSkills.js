@@ -61,12 +61,14 @@ const TechSkills = () => {
             </Tab>
             <Tab eventKey="AlsoFamiliarWith" title="Also Familiar With..." className='skills-tab'>
                 <ul className='skills'>
-                    <li><strong><i className="fab fa-connectdevelop"></i> Tensorflow</strong></li>
-                    <li><strong><i className="fas fa-fire"></i> Pytorch</strong></li>
-                    <li><strong><i className="fas fa-images"></i> OpenCV</strong></li>
-                    <li><strong><i className="fas fa-laptop-code"></i> VS Code</strong></li>
-                    <li><strong><i className="fas fa-spider"></i> Spyder</strong></li>
-                    <li><strong><i className="fas fa-bug"></i> Debugging</strong></li>
+                    <li><strong><i className="fab fa-connectdevelop"></i> Machine Learning </strong>- I'm particularly interested in this field and I'm well acquainted with popular ML tools like Scikit-Learn, Keras, TensorFlow and Pytorch. I've developed both supervised and unsupervised, and batch and online learning models. I enjoy testing and validating to find optimal models and hyperparameters.</li>
+                    {/* <li><strong><i className="fab fa-connectdevelop"></i> Tensorflow & Keras - </strong></li>
+                    <li><strong><i className="fas fa-fire"></i> Pytorch</strong></li> */}
+                    <li><strong><i className="fas fa-images"></i> OpenCV</strong> - This is my go-to library for image manipulation and computer vision tasks.</li>
+                    <li><strong><i className="fas fa-laptop-code"></i> IDE's</strong> - I've used a number of popular integrated development environments over the last few years. Now I mainly use VS Code for editing and debugging but I sometimes use Spyder when I need to perform more in-depth data analysis.</li>
+                    {/* <li><strong><i className="fas fa-laptop-code"></i> VS Code</strong></li>
+                    <li><strong><i className="fas fa-spider"></i> Spyder</strong></li> */}
+                    {/* <li><strong><i className="fas fa-bug"></i> Debugging</strong></li> */}
                 </ul>
             </Tab>
         </Tabs>
