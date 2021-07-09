@@ -388,6 +388,7 @@ h3{
     min-height: 100vh;
     background-color: #164664;
     width: 100vw;
+    padding-bottom: 3vh;
 }
 .projects-h1{
     font-size: 3em;
@@ -496,6 +497,34 @@ h3{
     color:black;
 }
 .git-links i{
+    padding-right: 1vw;
+}
+
+/* Footer Styling */
+
+.footer-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(71, 71, 82);
+    border-top: #EEFBFB solid;
+    color: #EEFBFB;
+    height: 5vh;
+}
+.foot-email-div a{
+    text-align: center;
+    color:  #EEFBFB;
+    max-width: 33vw;
+}
+.back-to-top-div{
+    text-align: center;
+}
+.back-to-top-div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.foot-media-links a{
+    color: #EEFBFB;
     padding-right: 1vw;
 }
 
